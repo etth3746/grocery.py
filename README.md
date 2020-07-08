@@ -15,14 +15,11 @@ def rules():
 
 def store(grocery_list):
 
-    if grocery_list == []:
+    if grocery_list == []:      #If the list is empty print 'Game Over'
             gameEnd()
 
 
-
-
-
-    print("---Directory---")
+    print("---Directory---")        #Prints directory of departments in the store
     print("Dry Goods")
     print("Meat")
     print("Frozen")
@@ -36,9 +33,9 @@ def store(grocery_list):
     department_choice = input("\nWhich department would you like to go to?\n").upper()
        
 
-    if department_choice == "DRY GOODS":
+    if department_choice == "DRY GOODS":                                             #If user wants to go to dry goods
         print("\nHere are all of the items located in Dry Goods:\n")
-        items_in_dry = ['Bread', 'Chips', 'Sugar', 'Skittles', 'Rolos', 'Lucky Charms', 'Donuts', 'Root Beer']
+        items_in_dry = ['Bread', 'Chips', 'Sugar', 'Skittles', 'Rolos', 'Lucky Charms', 'Donuts', 'Root Beer']      #A list of all items located in this department
         for items in items_in_dry:
             print(items)
 
@@ -62,9 +59,9 @@ def store(grocery_list):
 
         
 
-    elif department_choice == "MEAT":
+    elif department_choice == "MEAT":                   #If the user wants to go to Meat
         print("\nHere are the items located in Meat:\n")
-        items_in_meat = ["Steak", "T-bone", "Burgers", "Chicken Breast"]
+        items_in_meat = ["Steak", "T-bone", "Burgers", "Chicken Breast"]        #A list of all items located in this department
         for items in items_in_meat:
             print(items)
 
@@ -86,9 +83,9 @@ def store(grocery_list):
 
     
     
-    elif department_choice == "FROZEN":
+    elif department_choice == "FROZEN":                     #If the user wants to go to Frozen
         print("\nHere are the items located in Frozen:\n")
-        items_in_frozen = ["Frozen Chicken", "Toaster Strudel", "Eggo Waffles", "Ice Cream", "Frozen Veggies"]
+        items_in_frozen = ["Frozen Chicken", "Toaster Strudel", "Eggo Waffles", "Ice Cream", "Frozen Veggies"]      #A list of all items located in this department
         for items in items_in_frozen:
             print(items)
 
@@ -110,9 +107,9 @@ def store(grocery_list):
 
 
 
-    elif department_choice == "DAIRY":
+    elif department_choice == "DAIRY":                      #If the user wants to go to Dairy
         print("\nHere are the items located in Dairy:\n")
-        items_in_dairy = ["Milk", "Eggs", "Yogurt", "Cheese", "Butter"]
+        items_in_dairy = ["Milk", "Eggs", "Yogurt", "Cheese", "Butter"]         #A list of all items located in this department
         for items in items_in_dairy:
             print(items)
 
@@ -134,9 +131,9 @@ def store(grocery_list):
 
             
 
-    elif department_choice == "TOYS":
+    elif department_choice == "TOYS":                          #If the user wants to go Toys
         print("\nHere are all the items located in Toys:\n")
-        items_in_toys = ["Lego Set", "Nerf Gun", "Barbie", "Board Game", "Puzzle"]
+        items_in_toys = ["Lego Set", "Nerf Gun", "Barbie", "Board Game", "Puzzle"]      #A list of all items located in this department
         for items in items_in_toys:
             print(items)
 
@@ -158,9 +155,9 @@ def store(grocery_list):
 
 
 
-    elif department_choice == "ELECTRONICS":
+    elif department_choice == "ELECTRONICS":                        #If the user wants to go to Electronics
         print("\nHere are all the items located in Electronics:\n")
-        items_in_electronics = ["Samsung 50' TV", "Bose Soundbar", "PS5", "Acer Monitor", "Sony Headphones"]
+        items_in_electronics = ["Samsung 50' TV", "Bose Soundbar", "PS5", "Acer Monitor", "Sony Headphones"]        #A list of all items located in this department
         for items in items_in_electronics:
             print(items)
 
@@ -181,9 +178,9 @@ def store(grocery_list):
 
 
 
-    elif department_choice == "APPAREL":
+    elif department_choice == "APPAREL":                               #If the user wants to go to Apparel
         print("\nHere are all of the items located in Apparel:\n")
-        items_in_apparel = ["Supreme Hoodie", "Gucci Sunglasses", "Louis Vuitton Handbag", "Patagonia T-Shirt"]
+        items_in_apparel = ["Supreme Hoodie", "Gucci Sunglasses", "Louis Vuitton Handbag", "Patagonia T-Shirt"]     #A list of all items located in this department
         for items in items_in_apparel:
             print(items)
 
@@ -206,9 +203,9 @@ def store(grocery_list):
         
 
 
-    elif department_choice == "DELI":
+    elif department_choice == "DELI":                           #IF the user wants to go to Deli
         print("\nHere are all of the items located in Deli\n")
-        items_in_deli = ["Bread", "Sliced Ham", "Sliced Cheese", "Pepperoni", "Salami"]
+        items_in_deli = ["Bread", "Sliced Ham", "Sliced Cheese", "Pepperoni", "Salami"]     #A list of all items located in this department
         for items in items_in_deli:
             print(items)
 
@@ -231,9 +228,9 @@ def store(grocery_list):
 
 
 
-    elif department_choice == "PRODUCE":
+    elif department_choice == "PRODUCE":                            #If the user wants to go to Produce
         print("\nHere are all of the items located in Produce:\n")
-        items_in_produce = ["Apples", "Bananas", "Peaches", "Strawberries", "Watermelon"]
+        items_in_produce = ["Apples", "Bananas", "Peaches", "Strawberries", "Watermelon"]       #A list of all items located in this department
         for items in items_in_produce:
             print(items)
 
