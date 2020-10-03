@@ -33,7 +33,7 @@ def store(grocery_list):
     department_choice = input("\nWhich department would you like to go to?\n").upper()
        
 
-    if department_choice == "DRY GOODS":                                             #If user wants to go to dry goods
+    if department_choice == "DRY GOODS":                                             #If user wants to go to Dry Goods
         print("\nHere are all of the items located in Dry Goods:\n")
         items_in_dry = ['Bread', 'Chips', 'Sugar', 'Skittles', 'Rolos', 'Lucky Charms', 'Donuts', 'Root Beer']      #A list of all items located in this department
         for items in items_in_dry:
